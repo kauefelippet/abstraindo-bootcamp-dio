@@ -14,6 +14,12 @@ public class Mentoria extends Conteudo {
         this.data = data;
     }
 
+    public Mentoria(String titulo, String descricao, LocalDate data) {
+        super.setTitulo(titulo);
+        super.setDescricao(descricao);
+        this.data = data;
+    }
+
     @Override
     public String toString() {
         return "Mentoria{" +
